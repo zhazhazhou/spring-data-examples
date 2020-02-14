@@ -8,6 +8,8 @@
     </appender>
 
     <logger name="example.springdata.mongodb.util.EmbeddedMongo" level="info"/>
+    <logger name="org.springframework.transaction" level="debug"/>
+    <logger name="org.springframework.data" level="debug"/>
     <logger name="org.mongodb.driver.protocol" level="debug"/>
 
     <root level="error">
