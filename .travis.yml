@@ -6,14 +6,8 @@ env:
     - PROFILE=spring-data-next
     - PROFILE=spring-data-next-releasetrain
     - PROFILE=spring-data-next-releasetrain-released
-    - PROFILE=hibernate-53
-    - PROFILE=spring-data-next,hibernate-53
-    - PROFILE=spring-data-next-releasetrain,hibernate-53
-    - PROFILE=spring-data-next-releasetrain-released,hibernate-53
-    - BOOT=2.2.6.BUILD-SNAPSHOT PROFILE=spring-data-next-releasetrain
-    - BOOT=2.2.6.BUILD-SNAPSHOT PROFILE=spring-data-next-releasetrain-released
-    - BOOT=2.2.6.BUILD-SNAPSHOT PROFILE=spring-data-next-releasetrain,hibernate-53
-    - BOOT=2.2.6.BUILD-SNAPSHOT PROFILE=spring-data-next-releasetrain-released,hibernate-53
+    - BOOT=2.3.1.BUILD-SNAPSHOT PROFILE=spring-data-next-releasetrain
+    - BOOT=2.3.1.BUILD-SNAPSHOT PROFILE=spring-data-next-releasetrain-released
 
 services:
   - redis-server
